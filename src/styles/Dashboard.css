@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+.stats-container{
+    display: grid;
+    padding-left:10%;
+    padding-right: 10%;
+    grid-template-columns: 30%  30% 30%;
+    column-gap: 28px;
+    
+}
+
+.month-stat-container{
+    padding: 6px;
+    background-color:#92B4F4 ;
+    border-radius: 10px;
+}
+
+.month-stat-text{
+    padding: 5%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    color: #FFFF;
+    font-size: 40px;
+    background-color: #92B4F4;
+}
+
+.editable-input{
+    padding: 4px;
+    background-color: #92B4F4;
+    
+}
+
+.editable-input-text{
+    padding-left: 8%;
+    background-color: #92B4F4;
+    color: #FFFF;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 40px;
+    border-style: none;   
+}
+
+.editable-input-container{
+    display: inline-block; /* Ensures width restrictions apply */
+    max-width: 150px; /* Adjust as needed */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflowing content */
+    text-overflow: ellipsis; /* Adds "..." when text overflows */
+}
+
+.editable-input-button{
+    float: right;
+}
